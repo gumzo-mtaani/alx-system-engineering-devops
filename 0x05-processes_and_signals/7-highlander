@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script is doing a myriad of daunting tasks
+trap interrup SIGTERM
+
+interrup()
+{
+    echo "I am invincible!!!"
+}
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
