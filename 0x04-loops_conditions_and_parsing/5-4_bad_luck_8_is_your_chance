@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
+# This script is displaying different loops
 i=1
 while [ "$i" -le 10 ]
 do
@@ -14,4 +14,4 @@ do
     fi
     i=$((i + 1))
 done
-i=$ii
+i=$i
